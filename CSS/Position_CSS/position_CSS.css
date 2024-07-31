@@ -1,0 +1,46 @@
+body {
+    height: 2000px;
+    width: 2000px;
+}
+
+.relative {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: aliceblue;
+    position: relative;
+    top: 20px; /* Adjust these values to see the offset */
+    left: 20px;
+}
+
+.absolute {
+    height: 100px;
+    width: 100px;
+    border: 2px dotted black;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 50px; /* Adjust these values to see the offset */
+    left: 150px;
+}
+
+.static {
+    height: 100px;
+    width: 100px;
+    border: 2px dashed black;
+    background-color: rgb(150, 98, 29);
+    position: static; /* This is the default, but it's good to be explicit */
+    margin-top: 200px; /* Adds space between the elements */
+}
+.rel-absolute{
+    height: 100px;
+    width: 50px;
+    background-color: aqua;
+    position: absolute;
+}
+.fixed{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    position: fixed;
+    border: 2px solid blue;
+}

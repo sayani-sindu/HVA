@@ -1,0 +1,21 @@
+.block-element{
+    display: block;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    
+
+}
+.inline-block-element{
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    border: 2px dashed black;
+    display: inline-block;
+}
+.inline-element{
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    border: 2px dotted black;
+}
