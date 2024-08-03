@@ -20,3 +20,8 @@ let newEmployee = new Employee("sindu", "sindusayani@gmail.com", "CSE", "Softwar
 console.log(newEmployee);
 newEmployee.introduce();
 newEmployee.displaySalary();
+
+let manager = new Employee("sudha", "sudhasayani@gmail.com", "Sales", "Manager", 10000000);
+console.log(manager);
+manager.introduce();
+manager.displaySalary();
