@@ -11,7 +11,7 @@ function subtractNumbers(num1, num2){
 }
 
 function divideNumbers(num1, num2){
-    if(num2 == 0){
+    if(num2 === 0){
         return "Error: Division By Zero";
     }
     return num1 / num2;
