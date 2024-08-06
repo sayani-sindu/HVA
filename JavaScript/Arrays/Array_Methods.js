@@ -14,8 +14,8 @@ squaredNumbers = numbers.map(number => number * number);
 console.log(squaredNumbers);
 
 let evenNumbers = numbers.filter(function(number){
-    return number % 2 == 0;
+    return number % 2 === 0;
 });
 console.log(evenNumbers);
-evenNumbers = numbers.filter(number => number % 2 == 0);
+evenNumbers = numbers.filter(number => number % 2 === 0);
 console.log(evenNumbers);

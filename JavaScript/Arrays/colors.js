@@ -9,7 +9,7 @@ for(let index = 0; index < colors.length; index++){
     console.log(colors[index]);
 }
 let index = 0;
-while(index == colors.length){
+while(index < colors.length){
     console.log(colors[index]);
     index ++;
 }
