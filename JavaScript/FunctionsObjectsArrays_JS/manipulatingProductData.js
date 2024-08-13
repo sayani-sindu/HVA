@@ -34,12 +34,13 @@ displayProducts(products);
 const taxRate = 0.1;
 const productsWithTax = products.map(product =>
 {
+    const amountWithTax = (product.price * (1 + taxRate)).toFixed(2);
     return {
         // id: product.id,
         // name: product.name,
         // category: product.category,
         ...product,// copies all data to new array
-        priceWithTax: (product.price * (1 + taxRate)).toFixed(2)
+        priceWithTax: amountWithTax
     };
 });
 console.log("products with Tax");
