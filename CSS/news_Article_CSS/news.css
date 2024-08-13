@@ -1,3 +1,11 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color: darkcyan;
+    font-size: 28px;
+    font-weight: bold;
+}
 h2{
     text-decoration: underline;
     text-align:center;
@@ -5,8 +13,18 @@ h2{
 p{
     line-height: 1.6;
     color:darkgreen;
+    font-size: 18px;
 }
-div{
-    background-color: lightcoral;
-    font-family: 'Times New Roman', Times, serif;
+.article-container{
+    background-color: antiquewhite;
+    font-weight: normal;
+    text-align: justify;
+    padding: 5px 5px 5px 5px;
+}
+.article-meta{
+    background-color: brown;
+    color: grey;
+    font-size: 14px;
+    font-style: italic;
+    text-decoration: none;
 }
