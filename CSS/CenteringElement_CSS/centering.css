@@ -1,0 +1,26 @@
+.inline-container{
+    text-align:center;
+}
+.inline-element{
+    border: 1px solid #007bff;
+    padding: 5px;
+}
+.inline-block-container{
+    text-align: center;
+}
+.inline-block-element{
+    display: inline-block;
+    border: 1px solid #ff5733;
+    padding: 10px;
+    margin-top: 10px;
+}
+.block-element{
+    margin: 10px auto;
+    width: 200px;
+    border: 2px solid #333;
+    padding: 10px;
+}
+/* text-align doesn't work for block elements--
+The text-align property in CSS is designed to control 
+the horizontal alignment of inline-level content within a
+block-level container.*/

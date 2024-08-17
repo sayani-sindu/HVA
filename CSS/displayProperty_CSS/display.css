@@ -1,0 +1,27 @@
+.block-element{
+    border: 2px solid #333;
+    background-color: azure;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.inline-element{
+    display: inline;
+    border: 1px dashed #007BFF;
+    padding: 5px;
+    margin-right: 10px;
+}
+.inline-block-element{
+    display: inline-block;
+    border: 1px solid #FF5733;
+    padding: 5px;
+    width: 100px;
+}
+/* setting the width to 100px on an 
+inline-block element ensures that the 
+element has a fixed width while still 
+allowing it to sit inline with other 
+elements. */
+.none-element{
+    display: none;
+}
