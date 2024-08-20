@@ -1,0 +1,30 @@
+.column-2{
+    display: inline-block;
+    width: 49%;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.column-3{
+    display: inline-block;
+    width: 32%;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.header, .main-content, .footer{
+    border: 2px solid black;
+}
+.header, .footer{
+    background-color: #4caf50;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.row{
+    margin-bottom: 10px;
+}
