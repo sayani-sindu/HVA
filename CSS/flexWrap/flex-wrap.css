@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    border: 2px dashed black;
+    width: 500px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.box{
+    box-sizing: border-box;
+    background-color: #c3dbeb;
+    border: 2px solid #608ba8;
+    height: 100px;
+}
+.box1, .box2, .box3{
+    flex-basis: 200px;
+    /* flex-shrink: 0; -- used to reduce the size of the box*/
+}
+.box1{
+    /* flex-shrink: 0; */
+    flex-grow: 2; /* applies to each line independently*/
+}
+.box2{
+    /* flex-shrink: 1; */
+    flex-grow: 1;
+}
+.box3{
+    /* flex-shrink: 3; */
+    flex-grow: 1;
+}

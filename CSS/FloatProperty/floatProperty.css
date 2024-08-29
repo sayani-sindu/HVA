@@ -1,0 +1,15 @@
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.second-paragraph{
+    /* clear: left;  */
+    /* the cleared element will move down below it. */
+    /* clear: right;
+    the cleared element will move down below it */
+    clear: both;
+    /* clear: none;
+    it will not disturb any elements */
+}

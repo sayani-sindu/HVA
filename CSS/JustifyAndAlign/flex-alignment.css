@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    border: 2px dashed black;
+    height: 300px;
+    margin: auto;
+    justify-content: space-evenly;/*flex-start, flex-end, space-between, space-around, center, space-around*/
+    align-items: flex-end;/*flex-start, center*/
+}
+.box{
+    box-sizing: border-box;
+    background-color: #c3dbeb;
+    border: 2px solid #608ba8;
+    width: 100px;
+    height: 100px;
+}
+.box1{
+    height: 100px;
+    /* flex-grow: 1; */
+}
+.box2{
+    height: 150px;
+}
+.box3{
+    height: 200px;
+}

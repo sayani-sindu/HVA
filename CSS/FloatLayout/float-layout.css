@@ -1,0 +1,56 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header, Footer, and Main Content */
+.header, .footer, .main-content {
+    border: 2px solid black;
+    text-align: center;
+}
+
+.header, .footer {
+    background-color: #4CAF50;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+/* Row Styling */
+.row {
+    margin-bottom: 20px;
+}
+
+/* Column Styling */
+.column-2, .column-3 {
+    float: left;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    height: 200px;
+}
+
+.column-2 {
+    width: 50%;
+    border: 1px solid black;
+    background-color: beige;
+}
+
+.column-3 {
+    width: 33.3%;
+    background-color: azure;
+    border: 1px solid black;
+}
+
+/* Clearfix to Fix Float Issues */
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.column-3:hover{
+    background-color: coral;
+}
