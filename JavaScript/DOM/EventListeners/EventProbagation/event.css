@@ -1,0 +1,36 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.div2{
+    height: 500px;
+    width: 500px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.div1{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* button{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+} */
+.button{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}

@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: burlywood;
+}
+
+.button-class {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+.button{
+    height: 300px;
+    width: 500px;
+    border: 2px solid white;
+    background-color: violet;
+}
+.hidden-content{  
+    border: 2px solid white;  
+    display: none;
+}
+.hidden-content.button{
+    display: block;
+}
+/* .reveal{
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}  */

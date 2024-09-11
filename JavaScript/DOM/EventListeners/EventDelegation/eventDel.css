@@ -1,0 +1,26 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+/* To get the sports to the center of sthe page-- make body as a flex box */
+#sports{
+    height: 200px;
+    width: 100px;
+    padding-left: 5px;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#sports li{
+    list-style-type: none;
+    text-align: center;
+    height: 18px;
+    width: 80px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
