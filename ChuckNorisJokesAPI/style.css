@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+
+}
+
+#container{
+    position: relative;
+    background-color: #1f1f1f;
+    height: 100vh;
+    color: limegreen;
+    font-size: 1.8rem;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px 0;
+    width: 100%;
+}
+
+#container h2{
+    margin-top: 20px;
+}
+
+#container p{
+    line-height: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    width: 100%;
+    padding: 0px 10px;
+}
+
+#joke-container{
+    height: 200px;
+}
+
+#loadJokeBtn{
+    background-color: transparent;
+    border: 1px solid limegreen;
+    color: limegreen;
+    cursor: pointer;
+    font-size: 1.6rem;
+    padding: 10px;
+    text-transform: uppercase;
+    margin: 35px auto;
+    display: block;
+    border-radius: 5px;
+
+}
+#loadJokeBtn:hover{
+    color:#1f1f1f;
+    background-color: limegreen;
+}
+
+#chuckNorrisImage{
+    width: 300px;
+    border-radius: 20px;
+    height: 200px;
+}
